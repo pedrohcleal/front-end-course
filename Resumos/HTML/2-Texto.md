@@ -116,4 +116,104 @@ function helloWorld() {
 <p>Matemática: x<sup>2</sup> + y<sup>2</sup> = z<sup>2</sup></p>
 ```
 
-Essas tags são essenciais para a formatação e apresentação de texto em HTML, proporcionando uma estrutura clara e semântica ao conteúdo da página web.
+### Tags sem conteúdo
+
+As tags sem conteúdo, também conhecidas como **tags vazias** ou **tags auto-fechadas**, são elementos HTML que não têm um conteúdo interno e não necessitam de uma tag de fechamento. Elas são usadas para inserir elementos que não exigem texto ou outras tags dentro delas. Aqui estão algumas das principais tags sem conteúdo:
+
+### 1. **`<br>` (Quebra de Linha)**
+A tag `<br>` é usada para inserir uma quebra de linha no texto. Quando esta tag é encontrada, o texto que a segue é exibido na linha seguinte.
+
+**Exemplo:**
+```html
+<p>Esta é a primeira linha.<br>Esta é a segunda linha.</p>
+```
+
+### 2. **`<hr>` (Linha Horizontal)**
+A tag `<hr>` é utilizada para criar uma linha horizontal que pode ser usada para separar seções de conteúdo. É comumente usada como um divisor visual.
+
+**Exemplo:**
+```html
+<h2>Seção 1</h2>
+<p>Conteúdo da seção 1.</p>
+<hr>
+<h2>Seção 2</h2>
+<p>Conteúdo da seção 2.</p>
+```
+
+### 3. **`<img>` (Imagem)**
+A tag `<img>` é usada para incorporar imagens em uma página. Ela requer um atributo `src` para indicar a URL da imagem e um atributo `alt` para fornecer uma descrição alternativa da imagem.
+
+**Exemplo:**
+```html
+<img src="imagem.jpg" alt="Descrição da imagem">
+```
+
+### 4. **`<input>` (Entrada de Formulário)**
+A tag `<input>` é utilizada em formulários para permitir a entrada de dados do usuário. Ela pode ter vários tipos, como texto, senha, checkbox, radio, entre outros, definidos pelo atributo `type`.
+
+**Exemplo:**
+```html
+<input type="text" placeholder="Digite seu nome">
+<input type="checkbox" id="termos">
+<label for="termos">Aceito os termos</label>
+```
+
+### 5. **`<link>` (Vinculação de Recursos)**
+A tag `<link>` é usada para vincular arquivos externos ao documento HTML, como arquivos de estilo CSS. Geralmente, é utilizada dentro do elemento `<head>`.
+
+**Exemplo:**
+```html
+<link rel="stylesheet" href="styles.css">
+```
+
+### 6. **`<meta>` (Metadados)**
+A tag `<meta>` é utilizada para fornecer metadados sobre o documento, como a descrição da página, palavras-chave, autor e informações de codificação de caracteres. Assim como a tag `<link>`, ela é geralmente encontrada dentro do `<head>`.
+
+**Exemplo:**
+```html
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+```
+
+### 7. **`<base>` (Base de URL)**
+A tag `<base>` é usada para especificar a URL base para todas as URLs relativas na página. Assim como as outras tags vazias, ela também é colocada dentro do `<head>`.
+
+**Exemplo:**
+```html
+<base href="https://www.exemplo.com/">
+```
+
+### 8. **`<area>` (Área de Imagem)**
+A tag `<area>` é usada em conjunto com a tag `<map>` para definir áreas clicáveis em uma imagem. Ela é usada para criar mapas de imagem.
+
+**Exemplo:**
+```html
+<img src="imagem.jpg" usemap="#mapa">
+<map name="mapa">
+  <area shape="rect" coords="34,44,270,350" href="link.html" alt="Descrição">
+</map>
+```
+
+### 9. **`<source>` (Fonte de Mídia)**
+A tag `<source>` é usada para especificar múltiplas fontes para elementos de mídia, como `<audio>` e `<video>`, permitindo que o navegador escolha a melhor fonte disponível.
+
+**Exemplo:**
+```html
+<video controls>
+  <source src="video.mp4" type="video/mp4">
+  <source src="video.ogg" type="video/ogg">
+  Seu navegador não suporta vídeo.
+</video>
+```
+
+### 10. **`<track>` (Legendas para Mídia)**
+A tag `<track>` é usada dentro de elementos de vídeo e áudio para especificar faixas de texto, como legendas e descrições.
+
+**Exemplo:**
+```html
+<video controls>
+  <source src="video.mp4" type="video/mp4">
+  <track src="legendas.vtt" kind="subtitles" srclang="pt" label="Português">
+</video>
+```
+
