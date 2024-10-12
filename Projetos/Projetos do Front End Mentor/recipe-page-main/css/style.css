@@ -1,0 +1,55 @@
+.container {
+    text-align: center;
+    background-color: black;
+    border-bottom: 10px solid ;
+}
+
+.div_image {
+    margin: 20px;
+    padding: 16px;
+    background-color: aqua;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+.external_page {
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+}
+
+/* Arquivo: css/style.css */
+body {
+    background-color: hsl(31, 37%, 77%); /* Cor de fundo da página inteira */
+    margin: 20px; /* Remove a margem padrão do body */
+    padding: 10px; /* Remove o padding padrão do body */
+    height: 100vh; /* Garante que o fundo cubra toda a altura da janela */
+}
+
+.young-serif-regular {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.outfit-400 {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.outfit-600 {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.outfit-700 {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
