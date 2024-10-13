@@ -5,9 +5,17 @@
 }
 
 .div_image {
-    margin: 20px;
-    padding: 16px;
-    background-color: aqua;
+    border-radius: 70px;
+    /* padding: 30px; */
+    width: 75vw;
+    
+}
+
+.textos {
+    /* max-width: 950px; */
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    padding: 40px;
 }
 
 .attribution { font-size: 11px; text-align: center; }
@@ -15,14 +23,14 @@
 
 .external_page {
     background-color: rgb(255, 255, 255);
-    border-radius: 15px;
+    border-radius: 40px;
 }
 
 /* Arquivo: css/style.css */
 body {
     background-color: hsl(31, 37%, 77%); /* Cor de fundo da página inteira */
     margin: 20px; /* Remove a margem padrão do body */
-    padding: 10px; /* Remove o padding padrão do body */
+    padding: 80px; /* Remove o padding padrão do body */
     height: 100vh; /* Garante que o fundo cubra toda a altura da janela */
 }
 
