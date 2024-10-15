@@ -6,15 +6,13 @@
 
 .div_image {
     border-radius: 70px;
-    /* padding: 30px; */
-    width: 75vw;
-    
+    padding: 10px; 
+    width: 65vw;
 }
 
 .textos {
     /* max-width: 950px; */
     word-wrap: break-word;
-    overflow-wrap: break-word;
     padding: 40px;
 }
 
@@ -24,6 +22,7 @@
 .external_page {
     background-color: rgb(255, 255, 255);
     border-radius: 40px;
+    width: 75vw;
 }
 
 /* Arquivo: css/style.css */
@@ -34,30 +33,66 @@ body {
     height: 100vh; /* Garante que o fundo cubra toda a altura da janela */
 }
 
+.div-padrao {
+    background-color: hsl(330, 100%, 98%);
+    line-height: 1.5;
+    padding: 10px;
+    /* border-bottom: solid black; */
+}
+
+
+
 .young-serif-regular {
     font-family: "Young Serif", serif;
     font-weight: 400;
     font-style: normal;
   }
 
-.outfit-400 {
+p{
     font-family: "Outfit", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
 }
 
-.outfit-600 {
+h2 {
     font-family: "Outfit", sans-serif;
     font-optical-sizing: auto;
     font-weight: 600;
     font-style: normal;
+    color: hsl(14, 45%, 36%);
 }
 
-.outfit-700 {
+h1 {
     font-family: "Outfit", sans-serif;
     font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
 }
 
+.table {
+    width: 100%; /* Define a largura da tabela */
+     /* Remove espaços entre as células */
+}
+th, td {
+    border-bottom: 1px solid black; /* Adiciona uma borda de 1px */
+    text-align: center; /* Alinha o texto à esquerda */
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+th {
+    background-color: #f2f2f2; /* Cor de fundo do cabeçalho */
+}
+
+.h2{
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.td-num-color {
+    color: hsl(14, 45%, 36%);
+}

@@ -42,3 +42,9 @@ h2 {
     flex: 1;
     border-radius: 30px;
 }
+
+.hsl-2{
+    color: hsl(100, 30%, 60%);
+    background-color: aliceblue;
+    font-size: 70px;
+}
