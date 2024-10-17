@@ -33,14 +33,16 @@ body {
     height: 100vh; /* Garante que o fundo cubra toda a altura da janela */
 }
 
-.div-padrao {
+.div-prepa{
     background-color: hsl(330, 100%, 98%);
     line-height: 1.5;
-    padding: 10px;
+    padding: 1px;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
     /* border-bottom: solid black; */
 }
-
-
 
 .young-serif-regular {
     font-family: "Young Serif", serif;
@@ -74,6 +76,7 @@ h1 {
     width: 100%; /* Define a largura da tabela */
      /* Remove espaços entre as células */
 }
+
 th, td {
     border-bottom: 1px solid black; /* Adiciona uma borda de 1px */
     text-align: center; /* Alinha o texto à esquerda */
@@ -95,4 +98,30 @@ th {
 
 .td-num-color {
     color: hsl(14, 45%, 36%);
+}
+
+ul{
+    line-height: 2;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.div-ingre{
+    line-height: 2;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    border-bottom: solid 2px black;
+}
+
+.div-instru{
+    line-height: 1.5;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    border-bottom: solid 2px black;
 }
