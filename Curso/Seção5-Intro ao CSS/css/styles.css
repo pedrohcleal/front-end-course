@@ -48,3 +48,26 @@ h2 {
     background-color: aliceblue;
     font-size: 70px;
 }
+
+
+.bg-background {
+    background-image: url('../desktop-design.jpg');
+    padding: 10px;
+    margin: 40px;
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+}
+
+.not-centered-bd,
+.centered-bd{
+    height: 30px;
+    width: 30px;
+    background-image: url(../desktop-design.jpg);
+    margin-bottom: 20px;    
+}
+
+.height-width{
+    height: 200px;
+    width: 100px;
+    background-color: black;
+}

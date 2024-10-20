@@ -125,3 +125,9 @@ ul{
     font-style: normal;
     border-bottom: solid 2px black;
 }
+
+.bg-background {
+    background-image: url('../preview.jpg');
+    padding: 10px;
+    color: aquamarine;
+}

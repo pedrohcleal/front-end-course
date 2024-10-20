@@ -8,3 +8,9 @@ li {
     color: black ;
     font-size: 30px;
 }
+
+.shorthand-pad{
+    background-color: blanchedalmond;
+    padding: 10px 5px 20px 15px;
+    border-bottom: solid 2px color(srgb red green blue);
+}
