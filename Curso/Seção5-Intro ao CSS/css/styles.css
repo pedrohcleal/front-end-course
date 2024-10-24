@@ -71,3 +71,52 @@ h2 {
     width: 100px;
     background-color: black;
 }
+
+.border{
+    border: 10px solid red;
+    padding: 10px;
+}
+
+
+.border2{
+    border: 3px dotted blue;
+    padding: 10px;
+}
+
+.margin- {
+    margin: 15px;
+    background-color: red;
+
+}
+
+.margin-top{
+    margin-top: 10px;
+    background-color: black;
+    color: red;
+}
+
+.margin-shorthand{
+    margin: 5px 10px;
+    background-color: gray;
+}
+
+.box-model {
+    margin: 10px;
+    padding: 15px 25px;
+    border: 3px solid gray;
+    border-radius: 8px;
+    width: 200;
+    height: 100px;
+    background-color: white;
+}
+
+p{
+    font-size: 30px;
+}
+
+.alinha-direta{
+    text-align: center;
+    width: 300px;
+    border: 2px solid red;
+}
+
